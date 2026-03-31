@@ -22,21 +22,21 @@ provider "registry.terraform.io/hashicorp/google" {
 }
 
 provider "registry.terraform.io/hashicorp/google-beta" {
-  version     = "7.23.0"
+  version     = "7.26.0"
   constraints = ">= 3.43.0, >= 4.11.0, >= 5.41.0, ~> 7.0, < 8.0.0"
   hashes = [
-    "h1:E55pdzgTpyvHPTXU3EeA+txAl6xWBlwde8aXyow3Tyc=",
-    "zh:0b8f7316d1efa3fc05c9d11eeb561f9e69a9b5a1b4bcdf33dedd9190cc09425b",
-    "zh:12b6aeee8378694d0e57963e5f5fc18dd38b6c18c82bcab4a45ea8f0bb13a589",
-    "zh:18cadd0e0afb627cebbfa1bd2be5a6d1160a97428fc2162b98720c9ebfbbe5c6",
-    "zh:31673cb143f30492b78edcaf304f45586a48439aca494727fee327d5b83b8eb3",
-    "zh:48bebde0ed81a4c248300d9faaddfeda92a2c4016aa9c1616a1f018bf6bf759d",
-    "zh:696801735b1172de1b7e907f8e0ff44d1222944a71fbbea7b7032d9f16d85503",
-    "zh:729b0992f9dddaa658a72e33370e60d1baba2942697fef7cfd8418a3c26482f0",
-    "zh:94465802e5ac7965df11b986ded4b49767e428b1be9660be1f25f543c4a45e7f",
-    "zh:9f239733a85af7df3438adeda3fb3121e2049d8bd150b5fb9a480abffd8c8caa",
-    "zh:b099fab6e49d01e7bcece71ec2b8cf83744256c6cad2bb69a155e19f3486e1e5",
-    "zh:dab69c7cbbcb25428dbcebd7dd57c315ca4084e9d3caeabc40ed4e853d5deb10",
+    "h1:OCh5k3oSlMMa2zT7Sm/hCLwz+7pGD1z6NAGREbuvWGo=",
+    "zh:16801509850fb807b38397a01060df9aeb83e2b66d6a234593e71a24581c7ea3",
+    "zh:18f6066b788658776b260d778a82c5dc935858fccbcd4839f3a6cfd86e4738aa",
+    "zh:27259a0d96d41dc11bc1ee1bba3304bada4601e9e6e699cfb4fafa595a3ce60e",
+    "zh:3423f3957faaaa49347e0dfb4f95b8a4f88c1fb40a0fb8c55a10e2215973dd08",
+    "zh:378de5069816a643f9a399bb1075fe552a45a9af32b3a9a7bd5d1112ce6624d8",
+    "zh:4aa4f5307bd331a0828e1c0510e5d41dbf05fb5658633cd49c4118de4266e9ec",
+    "zh:8d9407662c69ae2293296f31e05b26f419761d78d775ba3edfc75c4cee968d02",
+    "zh:8f128e26dddfc160eaa2094c576816f2a3bdef637749e638755c4c3c159381fb",
+    "zh:a4d6aa75f9ef21f7d465dcd3d420f6654fa5bacf8a0afe8c74909105b9dd6380",
+    "zh:c644f10f9021e4468ec827779224ef0eb10085279e2380818ae1592c4bfe3199",
+    "zh:e7a50fb150297d60dfd1b933067d7fe9779ca2bdd4a9f7d55211b5706134ee36",
     "zh:f569b65999264a9416862bca5cd2a6177d94ccb0424f3a4ef424428912b9cb3c",
   ]
 }
