@@ -2,7 +2,7 @@
 
 module "cs-org-policy-iam_managed_disableServiceAccountKeyCreation" {
   source  = "terraform-google-modules/org-policy/google//modules/org_policy_v2"
-  version = "~> 5.2"
+  version = "~> 7.4"
 
   policy_root      = "organization"
   policy_root_id   = var.org_id
@@ -22,7 +22,7 @@ module "cs-org-policy-iam_managed_disableServiceAccountKeyCreation" {
 
 module "cs-org-policy-iam_managed_disableServiceAccountKeyUpload" {
   source  = "terraform-google-modules/org-policy/google//modules/org_policy_v2"
-  version = "~> 5.2"
+  version = "~> 7.4"
 
   policy_root      = "organization"
   policy_root_id   = var.org_id
@@ -42,7 +42,7 @@ module "cs-org-policy-iam_managed_disableServiceAccountKeyUpload" {
 
 module "cs-org-policy-iam_managed_preventPrivilegedBasicRolesForDefaultServiceAccounts" {
   source  = "terraform-google-modules/org-policy/google//modules/org_policy_v2"
-  version = "~> 5.2"
+  version = "~> 7.4"
 
   policy_root      = "organization"
   policy_root_id   = var.org_id
@@ -86,7 +86,7 @@ resource "google_org_policy_policy" "essentialcontacts_managed_allowedContactDom
 
 module "cs-org-policy-compute_managed_restrictProtocolForwardingCreationForTypes" {
   source  = "terraform-google-modules/org-policy/google//modules/org_policy_v2"
-  version = "~> 5.2"
+  version = "~> 7.4"
 
   policy_root      = "organization"
   policy_root_id   = var.org_id
@@ -108,7 +108,7 @@ module "cs-org-policy-compute_managed_restrictProtocolForwardingCreationForTypes
 
 module "cs-org-policy-iam_automaticIamGrantsForDefaultServiceAccounts" {
   source  = "terraform-google-modules/org-policy/google//modules/org_policy_v2"
-  version = "~> 5.2"
+  version = "~> 7.4"
 
   policy_root      = "organization"
   policy_root_id   = var.org_id
@@ -128,7 +128,7 @@ module "cs-org-policy-iam_automaticIamGrantsForDefaultServiceAccounts" {
 
 module "cs-org-policy-iam_allowedPolicyMemberDomains" {
   source  = "terraform-google-modules/org-policy/google//modules/org_policy_v2"
-  version = "~> 5.2"
+  version = "~> 7.4"
 
   policy_root      = "organization"
   policy_root_id   = var.org_id
@@ -150,7 +150,7 @@ module "cs-org-policy-iam_allowedPolicyMemberDomains" {
 
 module "cs-org-policy-storage_uniformBucketLevelAccess" {
   source  = "terraform-google-modules/org-policy/google//modules/org_policy_v2"
-  version = "~> 5.2"
+  version = "~> 7.4"
 
   policy_root      = "organization"
   policy_root_id   = var.org_id
@@ -170,7 +170,7 @@ module "cs-org-policy-storage_uniformBucketLevelAccess" {
 
 module "cs-org-policy-compute_setNewProjectDefaultToZonalDNSOnly" {
   source  = "terraform-google-modules/org-policy/google//modules/org_policy_v2"
-  version = "~> 5.2"
+  version = "~> 7.4"
 
   policy_root      = "organization"
   policy_root_id   = var.org_id
@@ -192,7 +192,7 @@ module "cs-org-policy-compute_setNewProjectDefaultToZonalDNSOnly" {
 
 module "cs-org-policy-storage_publicAccessPrevention" {
   source  = "terraform-google-modules/org-policy/google//modules/org_policy_v2"
-  version = "~> 5.2"
+  version = "~> 7.4"
 
   policy_root      = "organization"
   policy_root_id   = var.org_id
@@ -212,7 +212,7 @@ module "cs-org-policy-storage_publicAccessPrevention" {
 
 module "cs-org-policy-compute_requireOsLogin" {
   source  = "terraform-google-modules/org-policy/google//modules/org_policy_v2"
-  version = "~> 5.2"
+  version = "~> 7.4"
 
   policy_root      = "organization"
   policy_root_id   = var.org_id
@@ -232,7 +232,7 @@ module "cs-org-policy-compute_requireOsLogin" {
 
 module "cs-org-policy-compute_vmExternalIpAccess" {
   source  = "terraform-google-modules/org-policy/google//modules/org_policy_v2"
-  version = "~> 5.2"
+  version = "~> 7.4"
 
   policy_root      = "organization"
   policy_root_id   = var.org_id
@@ -252,7 +252,7 @@ module "cs-org-policy-compute_vmExternalIpAccess" {
 
 module "cs-org-policy-compute_disableNestedVirtualization" {
   source  = "terraform-google-modules/org-policy/google//modules/org_policy_v2"
-  version = "~> 5.2"
+  version = "~> 7.4"
 
   policy_root      = "organization"
   policy_root_id   = var.org_id
@@ -272,7 +272,7 @@ module "cs-org-policy-compute_disableNestedVirtualization" {
 
 module "cs-org-policy-compute_disableSerialPortAccess" {
   source  = "terraform-google-modules/org-policy/google//modules/org_policy_v2"
-  version = "~> 5.2"
+  version = "~> 7.4"
 
   policy_root      = "organization"
   policy_root_id   = var.org_id
@@ -292,7 +292,7 @@ module "cs-org-policy-compute_disableSerialPortAccess" {
 
 module "cs-org-policy-sql_restrictAuthorizedNetworks" {
   source  = "terraform-google-modules/org-policy/google//modules/org_policy_v2"
-  version = "~> 5.2"
+  version = "~> 7.4"
 
   policy_root      = "organization"
   policy_root_id   = var.org_id
@@ -312,7 +312,7 @@ module "cs-org-policy-sql_restrictAuthorizedNetworks" {
 
 module "cs-org-policy-compute_restrictXpnProjectLienRemoval" {
   source  = "terraform-google-modules/org-policy/google//modules/org_policy_v2"
-  version = "~> 5.2"
+  version = "~> 7.4"
 
   policy_root      = "organization"
   policy_root_id   = var.org_id
@@ -332,7 +332,7 @@ module "cs-org-policy-compute_restrictXpnProjectLienRemoval" {
 
 module "cs-org-policy-compute_skipDefaultNetworkCreation" {
   source  = "terraform-google-modules/org-policy/google//modules/org_policy_v2"
-  version = "~> 5.2"
+  version = "~> 7.4"
 
   policy_root      = "organization"
   policy_root_id   = var.org_id
@@ -352,7 +352,7 @@ module "cs-org-policy-compute_skipDefaultNetworkCreation" {
 
 module "cs-org-policy-compute_disableVpcExternalIpv6" {
   source  = "terraform-google-modules/org-policy/google//modules/org_policy_v2"
-  version = "~> 5.2"
+  version = "~> 7.4"
 
   policy_root      = "organization"
   policy_root_id   = var.org_id
@@ -372,7 +372,7 @@ module "cs-org-policy-compute_disableVpcExternalIpv6" {
 
 module "cs-corp-folder-policy-gcp_resourceLocations" {
   source  = "terraform-google-modules/org-policy/google//modules/org_policy_v2"
-  version = "~> 5.2"
+  version = "~> 7.4"
 
   policy_root      = "folder"
   policy_root_id   = split("/", module.landing-zone-folders.ids["Corp"])[1]
@@ -394,7 +394,7 @@ module "cs-corp-folder-policy-gcp_resourceLocations" {
 
 module "cs-corp-folder-policy-run_managed_requireInvokerIam" {
   source  = "terraform-google-modules/org-policy/google//modules/org_policy_v2"
-  version = "~> 5.2"
+  version = "~> 7.4"
 
   policy_root      = "folder"
   policy_root_id   = split("/", module.landing-zone-folders.ids["Corp"])[1]
@@ -428,7 +428,7 @@ resource "google_org_policy_custom_constraint" "sql_ssl_mode" {
 
 module "cs-org-policy-sql_ssl_mode" {
   source     = "terraform-google-modules/org-policy/google//modules/org_policy_v2"
-  version    = "~> 5.2"
+  version    = "~> 7.4"
   depends_on = [google_org_policy_custom_constraint.sql_ssl_mode]
 
   policy_root      = "organization"
